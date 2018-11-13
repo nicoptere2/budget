@@ -80,7 +80,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="vqq-HY-kXM">
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="vqq-HY-kXM">
                                 <rect key="frame" x="0.0" y="402" width="375" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <date key="date" timeIntervalSinceReferenceDate="563837861.56452405">
@@ -110,11 +110,6 @@
                             <constraint firstItem="th0-Zq-IfS" firstAttribute="top" secondItem="5RH-bT-hvT" secondAttribute="bottom" constant="58" id="yEm-AI-of2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mlF-cl-fjc"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="vqq-HY-kXM"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Ajout Mouvement" id="csJ-24-8Hj">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Hcx-pc-lfH"/>
